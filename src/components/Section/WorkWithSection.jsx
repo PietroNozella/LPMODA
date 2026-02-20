@@ -1,4 +1,4 @@
-export default function WorkWithSection({ name = 'KATIE' }) {
+export default function WorkWithSection({ name = 'LARISSA ANTONELLI' }) {
   return (
     <section className="bg-white py-20 md:py-28">
       <h2 className="text-center font-sans font-black uppercase text-3xl text-black mb-16">

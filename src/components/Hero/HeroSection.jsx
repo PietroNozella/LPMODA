@@ -1,5 +1,5 @@
 export default function HeroSection({
-  brandName = 'KATIE BOYAR ARTISTRY.',
+  brandName = 'LARISSA ANTONELLI ARTISTRY.',
   location = 'SEATTLE BASED',
 }) {
   return (
