@@ -1,4 +1,6 @@
 import Container from './components/Layout/Container'
+import Footer from './components/Layout/Footer'
+import Header from './components/Layout/Header'
 import HeroSection from './components/Hero/HeroSection'
 import TransitionSection from './components/Section/TransitionSection'
 import WorkWithSection from './components/Section/WorkWithSection'
@@ -6,11 +8,13 @@ import WorkWithSection from './components/Section/WorkWithSection'
 function App() {
   return (
     <div className="bg-white min-h-screen">
+      <Header />
       <Container>
         <HeroSection />
         <TransitionSection />
         <WorkWithSection name="KATIE" />
       </Container>
+      <Footer />
     </div>
   )
 }
